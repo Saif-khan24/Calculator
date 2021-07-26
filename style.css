@@ -1,0 +1,96 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+  
+  .container{
+      height: 63vh;
+      width: 100vw;
+  }
+
+
+  .navbar-top{
+      height: 3.2rem;
+      width: 100vw;
+      background-color: #1c5475;
+  }
+
+  .contain-box{
+      width: 25%;
+      height: 80%;
+      padding: 0.32rem;
+      margin-left: 3rem;
+  }
+
+  a{
+      font-size: 1.5rem;
+      padding-top: 0.33rem;
+      color:white;
+      text-decoration: none;
+  }
+  a:hover{
+      color: rgb(235, 235, 235);
+  }
+  
+  .calc{
+      margin: 7rem 24rem;
+      height: 65%;
+      width: 40%;
+      border: 1px solid blue;
+      box-shadow: 0 0 10px blue;
+      border-radius: 10px;
+  }
+  
+  h1{
+      color: blue;
+      text-align: center;
+  }
+  .heading{
+      margin-top: 1.5rem;
+  }
+
+  .box{
+      height: 80%;
+      width: 100%;
+      padding: 1.7rem 10rem 2.5rem 10rem;
+  }
+
+   input{
+       border: 1px solid blue;
+      margin: 0.5rem;
+      border-radius: 2px;
+  }
+
+  input::placeholder {
+        color: blue;
+        opacity: 0.65;
+    }
+
+  button{
+      margin-top: 1.5rem;
+      margin-left: 35%;
+      border-radius: 3px;
+      outline: none;
+      border: 1px solid blue;
+  }
+
+  button:hover{
+      color: blue;
+  }
+  
+  .footer{
+  background-color: #0E2431;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  padding: 0.2rem 0;
+  }
+  .footer__title{
+  margin-top: 0.8rem;
+  }
+  .footer__social{
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  }
+  .footer__icon{
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 1rem;
+  }
